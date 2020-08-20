@@ -27,7 +27,7 @@ v20.029 Adapt to official 19.07 or 19.07.1 stable version (not snapshot) LuCI op
 
 ## How to build
 
-####Openwrt SnapShots
+### Openwrt SnapShots
 ```
 cd openwrt/package
 git clone https://github.com/kongfl888/luci-theme-argon1.git  
