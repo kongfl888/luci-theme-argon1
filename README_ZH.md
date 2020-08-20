@@ -30,7 +30,7 @@ lean/18.06 本库不再包含该版本的代码
 ## 如何使用
 进入 openwrt/package/lean  或者其他目录
 
-####Openwrt SnapShots
+### Openwrt SnapShots
 ```
 cd openwrt/package
 git clone https://github.com/kongfl888/luci-theme-argon1.git  
