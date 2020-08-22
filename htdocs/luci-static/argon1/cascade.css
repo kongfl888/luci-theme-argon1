@@ -1414,7 +1414,6 @@ td > table > tbody > tr > td,
 }
 .cbi-value-field,
 .cbi-value-description {
-  line-height: 1.25;
   display: table-cell;
 }
 .cbi-value-field abbr,
@@ -1423,9 +1422,10 @@ td > table > tbody > tr > td,
   color: var(--gray-dark);
 }
 .cbi-value-description {
+  line-height: 1.25;
   font-size: small;
-  padding-top: 0.4rem;
-  opacity: 0.5;
+  padding-bottom: 0.4rem;
+  opacity: 0.8;
 }
 .cbi-value-title {
   display: table-cell;
