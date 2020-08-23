@@ -2329,6 +2329,7 @@ input[name="nslookup"] {
   padding: 1rem;
   position: relative;
   margin-top: 2rem !important;
+  background-color: #f7fafc;
   background-color: var(--secondary) !important;
   border-radius: 0.375rem;
   box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
@@ -2343,6 +2344,7 @@ input[name="nslookup"] {
   border-radius: 5px !important;
   padding: 0.5rem 2rem;
   text-align: center;
+  background-color: #8965e0;
   background-color: var(--purple) !important;
 }
 .node-main-login .main .main-right #maincontent .container .alert-message.warning p {
@@ -2474,6 +2476,7 @@ input[name="nslookup"] {
   will-change: transform;
   line-height: 1.5em;
   border: thin solid var(--purple);
+  background-color: #8965e0;
   background-color: var(--purple);
 }
 .node-main-login .main .main-right #maincontent .container .cbi-page-actions .cbi-button.cbi-button-reset {
