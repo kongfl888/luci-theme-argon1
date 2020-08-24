@@ -1987,7 +1987,7 @@ td > .ifacebadge,
   background-color: #fff;
 }
 /* textarea */
-.cbi-input-textarea {
+.cbi-input-textarea,textarea {
   font-family: monospace;
   width: 100%;
   min-height: 14rem;
