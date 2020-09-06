@@ -573,8 +573,7 @@ header .fill .container .pull-right {
 }
 header .fill .status {
   position: absolute;
-  top: 25%;
-  right: 1em;
+  right: 1.25em;
   float: right;
 }
 header .fill .status * {
@@ -583,6 +582,27 @@ header .fill .status * {
   float: left;
   margin-left: 0.3rem;
   cursor: pointer;
+}
+header .fill .status span[data-indicator="poll-status"] {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+header .fill .status span[data-style="active"] {
+  color: #32325d !important;
+  background-color: #fff;
+}
+header .fill .status span[data-style="inactive"] {
+  color: #ffffff !important;
+  background-color: #32325d;
 }
 #xhr_poll_status {
   display: flex;
